@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header_inner container">
+      <div class="logo_wrap">
+        <img class="logo_icon" src="./images/logo.png" alt="logo">
+        <a href="#" class="logo_text">Ob-havo</a>
+      </div>
+      <div class="search_wrap">
+        <img src="./images/search.png" class="search_icon" alt="">
+        <input id="search" class="search" type="text" placeholder="shahar qidirish...">
+        <a href="https://authorization.netlify.app/" class="sign_up"><img class="sign_in_icon" src="./images/login.png" alt=""></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="top_part">
+      <img id="pogoda_icon" class="pogoda_icon">
+      <div class="degrees">
+        <p id="celcium" class="celcium">
+          
+        </p>
+        <p id="fahrenheit" class="fahrenheit">
+          
+        </p>
+      </div>
+      <p id="city_name" class="city_name"></p>
+      <!-- <p class="date">07.07.2021</p> -->
+    </div>
+
+    <div class="bottom_part">
+      <div class="bottom_top">
+        <p id="osmon" class="osmon"></p>
+        <p id="namlik" class="namlik"></p>
+      </div>
+      <div class="bottom_bottom">
+        <p id="bosim" class="bosim"></p>
+        <p id="shamol" class="shamol"></p>
+      </div>
+    </div>
+  </main>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>

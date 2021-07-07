@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fredericka the Great', cursive;
+  background-image: url('../images/org.jpg');
+  background-position-y: -280px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #52734d6c;
+  backdrop-filter: blur(15px);
+  padding: 20px;
+
+  
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative
+}
+
+.logo_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.logo_text {
+  font-size: 40px;
+  color: #FEFFDE;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.logo_icon {
+  width: 55px;
+}
+
+.search_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  font-family: 'Acme', sans-serif;
+  outline: none;
+  background-color: #91c78867;
+  border: none;
+  width: 230px;
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 3PX;
+  font-family: 'Bai Jamjuree', sans-serif;
+  position: relative;
+}
+
+.search::placeholder {
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: rgba(0, 0, 0, 0.459);
+}
+
+.search_icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  position: absolute;
+  right: 75px;
+  z-index: 10;
+}
+
+.sign_in_icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 35px;
+}
+
+.main {
+  width: 800px;
+  height: 500px;
+  background-color: #52734d6c;
+  backdrop-filter: blur(15px);
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 3px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.degrees {
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80px;
+  padding-top: 15px;
+}
+
+.celcium {
+  margin-right: 60px;
+}
+
+.top_part {
+  text-align: center;
+}
+
+.bottom_top {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom_bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.city_name {
+  font-size: 40px;
+}
+
+.date {
+  font-size: 40px;
+}
+
+.bottom_part {
+  font-size: 35px;
+}
+
+.osmon {
+  margin-right: 40px;
+}
+
+.bosim {
+  margin-right: 40px;
+}
+
+.pogoda_icon {
+  width: 100px;
+  height: 100px;
+  padding-top: 30px;
+  object-fit: contain;
+}
